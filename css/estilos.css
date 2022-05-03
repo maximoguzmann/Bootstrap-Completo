@@ -248,19 +248,13 @@ body {
 }
 
 .art-img {
-    height: 80%;
-    width: 80%;
-    background-color: #F7F3F2;
-    border: solid #E0DFDD 5px;
-    border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    margin-bottom: 10px;
 }
 
 .manga__art--img {
     width: 100%;
-    height: 100%;
+    height: 500px;
     transition: transform 0.3s ease;
 }
 
@@ -276,7 +270,7 @@ body {
 
 .manga__art--button {
     width: 150px;
-    height: 30px;
+    height: 37px;
 }
 
 /* Fin de CSS para HTML Merch */
