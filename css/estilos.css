@@ -276,23 +276,10 @@ body {
 /* Fin de CSS para HTML Merch */
 /* Inicio de CSS para HTML Contacto */
 
-.contacto__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15vh 1fr;
-    grid-template-areas: 
-    "tit tit"
-    "nom men";
-
-    justify-items: center;
-    margin-bottom: 9rem;
-}
-
 .contacto__titulo {
     width: 100%;
     padding-top: 20px;
-    padding-left: 160px;
-    grid-area: tit;
+    padding-left: 8%;
 }
 
 .contacto__h1 {
