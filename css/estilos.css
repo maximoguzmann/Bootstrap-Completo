@@ -224,9 +224,9 @@ body {
 .merch__h1 {
     display: block;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 20px;
-    padding-left: 8%;
+    padding-left: 7%;
 }
 
 .merch__lista {
