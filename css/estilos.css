@@ -191,21 +191,6 @@ body {
     justify-content: space-around;
 }
 
-.local__div {
-    height: 100%;
-    width: 35%;
-    background-color: #F7F3F2;
-    border: solid #E0DFDD 5px;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.local__div img {
-    width: 100%;
-    height: auto;
-    padding-bottom: 15px;
-}
-
 .local__div--span {
     font-weight: bold;
     font-size: 18px;
@@ -213,13 +198,6 @@ body {
 
 /* Fin de CSS para HTML Sucursales */
 /* Inicio de CSS para HTML Merch */
-
-.merch {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 
 .merch__h1 {
     display: block;
@@ -229,23 +207,6 @@ body {
     padding-left: 7%;
 }
 
-.merch__lista {
-    height: 100px;
-    list-style: none;
-    margin-top: 100px;
-    margin-right: 160px;
-}
-
-
-.manga__art {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .art-img {
     overflow: hidden;
@@ -260,12 +221,6 @@ body {
 
 .manga__art--img:hover {
     transform: scale(1.15);
-}
-
-.manga__art--h2 {
-    text-align: center;
-    font-size: 150%;
-    padding-bottom: 15px;
 }
 
 .manga__art--button {
@@ -290,41 +245,6 @@ body {
     height: 100%;
     width: 70%;
     margin-left: 45px;
-}
-
-.contacto__lista {
-    list-style: none;
-}
-
-.contacto__input {
-    width: 70%;
-    height: 30px;
-}
-
-.contacto__div--nom {
-    grid-area: nom;
-}
-
-.contacto__div--men {
-    grid-area: men;
-}
-
-.mensaje {
-    display: flex;
-    padding-bottom: 15px;
-    padding-top: 40px;
-    font-size: 19px;
-    font-weight: bold;
-}
-
-.comentario {
-    width: 100%;
-}
-
-#mensaje__enviar {
-    margin-top: 10px;
-    width: 80px;
-    height: 25px;
 }
 
 /* Fin de CSS para HTML Contacto */
