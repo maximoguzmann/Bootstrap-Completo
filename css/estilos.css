@@ -214,26 +214,11 @@ body {
 /* Fin de CSS para HTML Sucursales */
 /* Inicio de CSS para HTML Merch */
 
-.merch__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100% 100% 100%;
-    grid-template-areas: 
-    "tit tit tit tit"
-    "man1 man2 man3 man4"
-    "man5 man6 man7 man8";
-
-    justify-items: center;
-    row-gap: 2rem;
-    margin-bottom: 2rem;
-}
-
 .merch {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    grid-area: tit;
 }
 
 .merch__h1 {
@@ -241,7 +226,7 @@ body {
     font-size: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 160px;
+    padding-left: 8%;
 }
 
 .merch__lista {
@@ -251,6 +236,7 @@ body {
     margin-right: 160px;
 }
 
+
 .manga__art {
     height: 100%;
     width: 100%;
@@ -259,38 +245,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.manga__art--1 {
-    grid-area: man1;
-}
-
-.manga__art--2 {
-    grid-area: man2;
-}
-
-.manga__art--3 {
-    grid-area: man3;
-}
-
-.manga__art--4 {
-    grid-area: man4;
-}
-
-.manga__art--5 {
-    grid-area: man5;
-}
-
-.manga__art--6 {
-    grid-area: man6;
-}
-
-.manga__art--7 {
-    grid-area: man7;
-}
-
-.manga__art--8 {
-    grid-area: man8;
 }
 
 .art-img {
